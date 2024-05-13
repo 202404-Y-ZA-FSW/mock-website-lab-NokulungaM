@@ -1,142 +1,187 @@
-<!DOCTYPE html>
+
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Re:Coded Mock Website Activity</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      body{background-color: aliceblue;}
+      h1,h5{text-align: center;}
+      h5{font-size: 20px;
+      font-family: 'Courier New', Courier, monospace;}
+      h1{font-family: 'Times New Roman', Times, serif ;
+    font-size: 80px;
+  margin-top: -20px;}
+  p{display: inline-block;}
+      img{border: 25px;
+      border-radius: 10px;
+      margin: 45px;
+      margin-top: auto;
+      width: 400px;
+    }
+    .images{perspective: 150rem;
+
+    }
+    .photo{position: relative;
+    z-index: 10;}
+    .contour{
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      transform: translateZ(-2rem) translateX(-1rem) translateY(2rem);
+      height: 260px;
+    }
+.partOne{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-inline: 300px;
+  margin-left: 25px;
+  
+}
+.cabin{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 25px;}
+.partTwo{margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-inline: 300px; 
+margin-right: 120px;}
+.teepee{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 25px;}
+  .partThree{margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-inline: 300px;
+  margin-left: 25px;}
+  .fishing{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 25px;}
+  .partFour{margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-inline: 300px;
+  margin-right: 120px;}
+  .archery{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 25px;
+word-wrap: break-word;}
+  .partFive{margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-inline: 300px;
+ margin-left: 25px;}
+  .canoeing{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 25px;}
+.Rent{display: flex;
+  justify-content: center;
+font-size: 25px;
+font-family: Arial, Helvetica, sans-serif;}
+.maximum{display: flex;
+justify-content: center;
+font-size: 15px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin-top: -10px;}
+#contactForm{background-color:#22472E ;
+font-size: 35px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+margin-top: -40px;
+}
+form{margin-top: -40px;
+  margin-inline-start: 250px;
+}
+
+.contactForm{
+  display: flex;
+  justify-content: center;
+}
+.note{text-align: center;
+  margin-top:-25px;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.timeline{
+  margin-top: 20px;
+}
+.message{margin-top: 5px;
+  width: 250px;
+height: 100px;}
+.footer{text-align: center;}
+    </style>
   </head>
   <body>
-    <main>
-      <div class="TopContainer">
-        <h3 class="welcome">Welcome to</h3>
-        <h1 class="Header">CAMP CHIPPEWA</h1>
+    <h5>Welcome to</h5>
+    <h1>CAMP PAMLUNGA</h1>
+    <div class="partOne">
+      <div class="images">
+        <img src="https://img.freepik.com/premium-vector/topographic-map-background-grid-map-contour-vector-illustration_105800-114.jpg?w=740" alt="" class="contour">
+        <img class="photo"
+        src ="https://media.architecturaldigest.com/photos/6234c3983d920840570d64d6/master/w_1600%2Cc_limit/TOM%2520FELDMAN%2520Kyle%2520Smith%2520:%2520@dipsauce.jpg"
+      />
       </div>
-
-      <section>
-        <div class="grid-container">
-          <div class="Right-container">
-            <div class="Images-container-left">
-              <img src="/assets/cabin.jpg" alt="camp" class="image" />
-              <img src="/assets/background.jpg" alt="camp-bg" class="image-bg" />
-            </div>
-            <h3 class="container-Header">Cabin</h3>
-            <p class="right-container-paragraph">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repellendus harum cumque molestias, quisquam tempore quidem
-              ratione mollitia autem ipsa voluptas, repellat voluptate
-              asperiores. Sint ratione deleniti voluptatibus possimus temporibus
-              rem quae distinctio itaque aperiam in tenetur voluptate soluta
-              deserunt accusamus, explicabo magni, beatae, reprehenderit et
-              laborum numquam aut id? Maxime!
-            </p>
-          </div>
-
-          <div class="Right-container">
-            <h3 class="container-Header">Teepeas</h3>
-            <p class="right-container-paragraph">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repellendus harum cumque molestias, quisquam tempore quidem
-              ratione mollitia autem ipsa voluptas, repellat voluptate
-              asperiores. Sint ratione deleniti voluptatibus possimus temporibus
-              rem quae distinctio itaque aperiam in tenetur voluptate soluta
-              deserunt accusamus, explicabo magni, beatae, reprehenderit et
-              laborum numquam aut id? Maxime!
-            </p>
-            <div class="Images-container">
-              <img src="/assets/snowy.jpg" alt="camp" class="image-shift-left" />
-              <img src="/assets/background.jpg" alt="camp-bg" class="image-bg" />
-            </div>
-          </div>
-
-          <div class="Right-container">
-            <div class="Images-container-left">
-              <img src="/assets/fishing.jpg" alt="camp" class="image" />
-              <img src="/assets/background.jpg" alt="camp-bg" class="image-bg" />
-            </div>
-            <h3 class="container-Header">Cabin</h3>
-            <p class="right-container-paragraph">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repellendus harum cumque molestias, quisquam tempore quidem
-              ratione mollitia autem ipsa voluptas, repellat voluptate
-              asperiores. Sint ratione deleniti voluptatibus possimus temporibus
-              rem quae distinctio itaque aperiam in tenetur voluptate soluta
-              deserunt accusamus, explicabo magni, beatae, reprehenderit et
-              laborum numquam aut id? Maxime!
-            </p>
-          </div>
-
-          <div class="Right-container">
-            <h3 class="container-Header">Teepeas</h3>
-            <p class="right-container-paragraph">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repellendus harum cumque molestias, quisquam tempore quidem
-              ratione mollitia autem ipsa voluptas, repellat voluptate
-              asperiores. Sint ratione deleniti voluptatibus possimus temporibus
-              rem quae distinctio itaque aperiam in tenetur voluptate soluta
-              deserunt accusamus, explicabo magni, beatae, reprehenderit et
-              laborum numquam aut id? Maxime!
-            </p>
-            <div class="Images-container">
-              <img src="/assets/Achery.jpg" alt="camp" class="image-shift-left" />
-              <img src="/assets/background.jpg" alt="camp-bg" class="image-bg" />
-            </div>
-          </div>
-
-          <div class="Right-container">
-            <div class="Images-container-left">
-              <img src="/assets/canooing.jpg" alt="camp" class="image" />
-              <img src="/assets/background.jpg" alt="camp-bg" class="image-bg" />
-            </div>
-            <h3 class="container-Header">Cabin</h3>
-            <p class="right-container-paragraph">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repellendus harum cumque molestias, quisquam tempore quidem
-              ratione mollitia autem ipsa voluptas, repellat voluptate
-              asperiores. Sint ratione deleniti voluptatibus possimus temporibus
-              rem quae distinctio itaque aperiam in tenetur voluptate soluta
-              deserunt accusamus, explicabo magni, beatae, reprehenderit et
-              laborum numquam aut id? Maxime!
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <form>
-        <div class="form-container">
-          <h3 class="form-container-Header">Contact Us to get Started</h3>
-          <p class="form-container-paragraph">
-            we'll reply when we get back from fishing
-          </p>
-
-          <div class="form-container-input">
-            <label for="name " class="form-label">Name</label>
-            <input type="text" name="name" class="form-name" />
-          </div>
-
-          <div class="form-container-input">
-            <label for="name " class="form-label">Email</label>
-            <input type="email" name="email" class="form-name" />
-          </div>
-
-          <div class="form-container-input">
-            <label for="name " class="form-label">Timeline</label>
-            <input type="text" name="Timeline" class="form-name" />
-          </div>
-
-          <div class="form-container-input">
-            <label for="name " class="form-label">Message</label>
-            <textarea name="textarea">
-
-            </textarea>
-          </div>
-
-        </div>
-      </form>
-
-      <footer>
-
-      </footer>
-    </main>
-  </body>
+   
+    <p class="cabinPar"><span class="cabin">Cabin</span> <br>
+      A modern architectural masterpiece nestled in a serene natural setting. Its sleek design features clean lines, floor-to-ceiling windows, and a minimalist exterior that harmonizes with its surroundings. Perched on stilts, the cabin seems to float above the landscape, offering breathtaking views of the forest and distant mountains.Inside, the interior is spacious and flooded with natural light, creating an airy and inviting atmosphere. The use of natural materials such as wood and stone adds warmth and texture to the contemporary aesthetic. With its seamless blend of modern design and natural beauty, this cabin offers a tranquil retreat for those seeking a harmonious connection with nature.
+    </p></div>
+    <div class="partTwo">
+   
+    <p><span class="teepee">Teepee</span> <br>
+        Friends gathered together under the vast blue sky, surrounded by the beauty of nature. They sit in a circle beside a teepee, its canvas fluttering gently in the breeze. With instruments in hand and smiles on their faces, they begin to play music, their melodies harmonizing with the sounds of birdsong and rustling leaves. As they strum guitars, pluck strings, and tap drums, their laughter and joy fill the air, creating a magical atmosphere of camaraderie and creativity. Under the open sky, amidst the serenity of the outdoors, these friends find solace and connection in the universal language of music, forging memories that will last a lifetime.
+    </p>  <div class="images"><img src="https://img.freepik.com/premium-vector/topographic-map-background-grid-map-contour-vector-illustration_105800-114.jpg?w=740" alt="" class="contour"> </div>
+    <img class="photo"
+      src ="https://images.pexels.com/photos/7149181/pexels-photo-7149181.jpeg?auto=compress&cs=tinysrgb&w=600"/>
+    </div>
+    <div class="partThree">
+      <div class="images"><img src="https://img.freepik.com/premium-vector/topographic-map-background-grid-map-contour-vector-illustration_105800-114.jpg?w=740" alt="" class="contour"></div>
+    <img class="photo"src="https://images.pexels.com/photos/2150362/pexels-photo-2150362.jpeg?auto=compress&cs=tinysrgb&w=600"/>
+    <p> <span class="fishing">Fishing</span> <br>
+    Fishing at a campsite offers the perfect blend of relaxation, excitement, and connection with nature. Picture yourself casting your line into a tranquil lake or river, surrounded by the peaceful sounds of chirping birds and rustling leaves. As you wait patiently for a bite, you can feel the stress of everyday life melting away, replaced by a sense of calm and anticipation</p>
+    </div>
+    <div class="partFour" >
+<p><span class="archery">Archery
+</span><br>
+Archery at a campsite offers a thrilling blend of skill, focus, and connection with nature. Imagine standing at the archery range, bow in hand, surrounded by towering trees and the sounds of the wilderness. With each arrow you draw back, you feel a sense of anticipation and concentration, focusing your mind and body on hitting your target.</p><div class="images">
+<img src="https://img.freepik.com/premium-vector/topographic-map-background-grid-map-contour-vector-illustration_105800-114.jpg?w=740" alt="" class="contour"></div>
+<img  class="photo"src ="https://images.pexels.com/photos/6620573/pexels-photo-6620573.jpeg?auto=compress&cs=tinysrgb&w=600"/></div>
+<div class="partFive">
+  <div class="images">
+   <img src="https://img.freepik.com/premium-vector/topographic-map-background-grid-map-contour-vector-illustration_105800-114.jpg?w=740" alt="" class="contour"></div>
+ <img class="photo" src ="https://images.pexels.com/photos/158045/lake-balaton-sunset-lake-landscape-158045.jpeg?auto=compress&cs=tinysrgb&w=600"/>
+<p> <span class="canoeing">Canoeing</span>
+<br>
+As you navigate through winding waterways and hidden coves, you encounter breathtaking vistas and hidden treasures that can only be discovered by canoe. The sense of freedom and tranquility that comes from being out on the water is unparalleled, offering a serene escape from the hustle and bustle of everyday life.</p>
+</div>
+<p class="Rent">Rent the whole place for R3 670/night
+    <div class="maximum">
+    <span>Maximum of 40people</span>
+    </div>
+</p>
+<div id="contactForm">
+<p class="contactForm">
+    Contact us to get started
+<div class="note"><span>We'll reply when we get back from Archery 🏹😉</span>
+</div>
+</p>
+<form>
+    <label>Name</label>
+    <input type="text">
+    <label>Email</label>
+    <input type="email"><br>
+    <div class="timeline"><label>Timeline</label><br>
+    <input type="month">
+    </div><br>
+    <label>Message</label><br>
+    <textarea class="message"></textarea>
+    <input type="submit"> 
+</form>
+</div>
+<footer>
+  <div class="footer">
+    Durban,KZN,South Africa 4001
+    <div>Design by <a href="#"> Pamela Gwala</a> and <a href="#"> Nokulunga Msabala</a></div>
+    <div><a href="#" class="fa fa-facebook"></a> <span><a href="#" class="fa fa-twitter"></a></span><span>
+    </span></div>
+    <div>
+©️Camp PamLunga</div>
+  </div>
+</footer>
+</body>
 </html>
